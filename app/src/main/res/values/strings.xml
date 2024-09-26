@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">My Project</string>
+    
+    <string name="pirates_name">Bajak laut Mugiwara</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="data_name">
+        <item>Monkey D. Luffy</item>
+        <item>Roronoa Zoro</item>
+        <item>Nami</item>
+        <item>Usopp</item>
+        <item>Vinsmoke Sanji</item>
+        <item>Tony Tony Chopper</item>
+        <item>Nico Robin</item>
+        <item>Franky</item>
+        <item>Brook</item>
+        <item>Jinbei</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Sebagai kapten, Luffy adalah sosok yang ceria, berani, dan penuh semangat. Impiannya untuk menjadi Raja Bajak Laut begitu besar sehingga ia rela menghadapi segala rintangan. Dengan kekuatan karetnya, Luffy tak kenal takut menghadapi musuh yang jauh lebih kuat darinya. Kepolosan dan sifatnya yang terlalu percaya pada orang lain sering kali membuatnya terjebak dalam situasi berbahaya, namun semangatnya yang tak pernah padam selalu berhasil membangkitkan semangat kru.</item>
+        <item>Zoro adalah seorang pendekar pedang yang dingin, keras kepala, dan memiliki rasa tanggung jawab yang tinggi. Impiannya untuk menjadi pendekar pedang terkuat di dunia membuatnya berlatih dengan sangat keras. Meskipun sering terlihat cuek, Zoro sangat peduli pada teman-temannya dan selalu siap melindungi mereka. Kesetiaannya pada Luffy tak perlu diragukan lagi.</item>
+        <item>Sebagai navigator, Nami memiliki kecerdasan dan insting yang tajam. Ia sangat mencintai uang dan bermimpi memiliki peta dunia yang lengkap. Meski begitu, Nami juga memiliki sisi lembut dan peduli pada teman-temannya. Kemampuannya dalam mengendalikan cuaca membuatnya menjadi aset berharga bagi kru.</item>
+        <item>Usopp adalah penembak jitu yang suka berbohong, namun di balik itu semua, ia memiliki hati yang baik. Impiannya untuk menjadi penembak jitu yang berani seringkali bertentangan dengan sifat penakutnya. Meskipun begitu, Usopp selalu berusaha untuk menjadi lebih kuat dan melindungi teman-temannya.</item>
+        <item>Sanji adalah seorang koki yang sangat tampan dan memiliki kode etik kesatria. Ia sangat menghormati wanita dan membenci serangga. Impiannya untuk menemukan All Blue, lautan yang memiliki semua jenis ikan, membuatnya terus berkelana. Keterampilan memasak dan gaya bertarungnya yang unik menjadikannya sosok yang diandalkan dalam kru.</item>
+        <item>Chopper adalah seorang dokter rusa kutub yang lucu dan baik hati. Impiannya untuk menjadi dokter yang hebat membuatnya terus belajar dan mengembangkan kemampuannya. Meskipun sering dianggap remeh karena penampilannya, Chopper memiliki hati yang besar dan selalu siap membantu orang lain.</item>
+        <item>Robin adalah seorang arkeolog yang misterius dan cerdas. Masa lalunya yang kelam membuatnya menyimpan banyak rahasia. Impiannya untuk mempelajari semua tentang sejarah dunia membuatnya bergabung dengan Luffy. Kemampuannya untuk mengendalikan bunga membuatnya menjadi sosok yang sangat kuat.</item>
+        <item>Franky adalah seorang cyborg tukang kapal yang sangat kuat dan penuh semangat. Impiannya untuk membangun kapal yang paling tangguh di dunia membuatnya terus berinovasi. Meskipun penampilannya kasar, Franky memiliki hati yang hangat dan sangat peduli pada teman-temannya.</item>
+        <item>Brook adalah seorang musisi kerangka hidup yang ceria dan suka bercanda. Impiannya untuk menemukan kembali nakamanya yang hilang membuatnya terus berkelana. Kemampuannya untuk hidup kembali membuatnya menjadi sosok yang unik dan menarik.</item>
+        <item>Jinbe adalah seorang ksatria laut yang bijaksana dan kuat. Pengalamannya yang luas membuatnya menjadi sosok yang dihormati oleh kru. Keputusan Jinbe untuk bergabung dengan Topi Jerami menunjukkan kesetiaannya pada Luffy dan keyakinannya pada mimpi mereka.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/luffy</item>
+        <item>@drawable/zorro</item>
+        <item>@drawable/nami</item>
+        <item>@drawable/usopp</item>
+        <item>@drawable/sanji</item>
+        <item>@drawable/chooper</item>
+        <item>@drawable/robin</item>
+        <item>@drawable/franky</item>
+        <item>@drawable/brook</item>
+        <item>@drawable/jinbei</item>
+    </integer-array>
+
 </resources>
