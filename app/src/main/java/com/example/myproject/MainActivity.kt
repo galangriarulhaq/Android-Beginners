@@ -1,6 +1,7 @@
 package com.example.myproject
 
 import android.os.Bundle
+import android.view.Menu
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -23,6 +24,11 @@ class MainActivity : AppCompatActivity() {
 
         list.addAll(getListPirates())
         showRecycleList()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 
     private fun getListPirates(): ArrayList<Pirate> {

@@ -3,6 +3,7 @@
     
     <string name="pirates_name">Bajak laut Mugiwara</string>
     <string name="description">Deskripsi</string>
+    <string name="about">About</string>
 
     <string-array name="data_name">
         <item>Monkey D. Luffy</item>
