@@ -4,6 +4,8 @@
     <string name="pirates_name">Bajak laut Mugiwara</string>
     <string name="description">Deskripsi</string>
     <string name="about">About</string>
+    <string name="galang_riarulhaq">Galang Riarulhaq</string>
+    <string name="email_dicoding">galangrz337@gmail.com</string>
 
     <string-array name="data_name">
         <item>Monkey D. Luffy</item>
