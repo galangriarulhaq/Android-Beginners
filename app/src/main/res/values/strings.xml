@@ -20,6 +20,19 @@
         <item>Jinbei</item>
     </string-array>
 
+    <string-array name="data_title">
+        <item>Kapten</item>
+        <item>Pendekar Pedang</item>
+        <item>Navigator</item>
+        <item>Penembak Jitu</item>
+        <item>Koki</item>
+        <item>Dokter</item>
+        <item>Arkeolog</item>
+        <item>Tukang Kapal</item>
+        <item>Musisi</item>
+        <item>Nahkoda</item>
+    </string-array>
+
     <string-array name="data_description">
         <item>Sebagai kapten, Luffy adalah sosok yang ceria, berani, dan penuh semangat. Impiannya untuk menjadi Raja Bajak Laut begitu besar sehingga ia rela menghadapi segala rintangan. Dengan kekuatan karetnya, Luffy tak kenal takut menghadapi musuh yang jauh lebih kuat darinya. Kepolosan dan sifatnya yang terlalu percaya pada orang lain sering kali membuatnya terjebak dalam situasi berbahaya, namun semangatnya yang tak pernah padam selalu berhasil membangkitkan semangat kru.</item>
         <item>Zoro adalah seorang pendekar pedang yang dingin, keras kepala, dan memiliki rasa tanggung jawab yang tinggi. Impiannya untuk menjadi pendekar pedang terkuat di dunia membuatnya berlatih dengan sangat keras. Meskipun sering terlihat cuek, Zoro sangat peduli pada teman-temannya dan selalu siap melindungi mereka. Kesetiaannya pada Luffy tak perlu diragukan lagi.</item>
