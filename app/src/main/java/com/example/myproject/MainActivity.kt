@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+
         rvPirates = findViewById(R.id.rv_pirates)
         rvPirates.setHasFixedSize(true)
 

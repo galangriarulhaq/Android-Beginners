@@ -19,6 +19,10 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         val imgPhoto: ImageView = findViewById(R.id.img_pirate)
         val tvName: TextView = findViewById(R.id.tv_name)
         val tvDescription: TextView = findViewById(R.id.tv_detail_description)
@@ -39,6 +43,7 @@ class DetailActivity : AppCompatActivity() {
         }
 
         val btnShare: Button = findViewById(R.id.btn_action_share)
+
         btnShare.setOnClickListener {
             val message = "Nama Karakter : ${tvName.text}\nArtikel :\n\t${tvDescription.text}"
             val intent = Intent(Intent.ACTION_SEND)
@@ -54,6 +59,15 @@ class DetailActivity : AppCompatActivity() {
             }
         }
 
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 
 }
