@@ -49,10 +49,11 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
+        val dataTitle = resources.getStringArray(R.array.data_title)
         val listPirate = ArrayList<Pirate>()
 
         for ( i in dataName.indices) {
-            val pirate = Pirate(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+            val pirate = Pirate(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataTitle[i])
             listPirate.add(pirate)
         }
         return listPirate
