@@ -1,5 +1,6 @@
 package com.example.myproject
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -15,6 +16,7 @@ class DetailActivity : AppCompatActivity() {
     companion object {
         const val KEY_PIRATE = "key_pirate"
     }
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
@@ -42,7 +44,7 @@ class DetailActivity : AppCompatActivity() {
             tvTitle.text = data.title
         }
 
-        val btnShare: Button = findViewById(R.id.btn_action_share)
+        val btnShare: Button = findViewById(R.id.action_share)
 
         btnShare.setOnClickListener {
             val message = "Nama Karakter : ${tvName.text}\nArtikel :\n\t${tvDescription.text}"

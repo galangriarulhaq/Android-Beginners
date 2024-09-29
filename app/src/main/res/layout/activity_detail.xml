@@ -69,7 +69,7 @@
             tools:text="@string/description"/>
 
         <Button
-            android:id="@+id/btn_action_share"
+            android:id="@+id/action_share"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
