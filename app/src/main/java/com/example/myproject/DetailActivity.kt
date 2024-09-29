@@ -20,7 +20,7 @@ class DetailActivity : AppCompatActivity() {
 
         val imgPhoto: ImageView = findViewById(R.id.img_pirate)
         val tvName: TextView = findViewById(R.id.tv_name)
-        val tvDescription: TextView = findViewById(R.id.tv_description)
+        val tvDescription: TextView = findViewById(R.id.tv_detail_description)
 
         val data = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra<Pirate>(KEY_PIRATE, Pirate::class.java)

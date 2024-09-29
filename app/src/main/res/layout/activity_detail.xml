@@ -30,11 +30,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
             tools:text="@string/pirates_name"
             android:gravity="center"
             android:textSize="24sp"
             android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/pirate_title"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
 
         <TextView
             android:id="@+id/tv_description"
@@ -43,7 +53,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            android:text="@string/description"
+            android:text="@string/article_pirate"
             android:textSize="18sp"
             android:textStyle="bold"/>
 
