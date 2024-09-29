@@ -1,5 +1,6 @@
 package com.example.myproject
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,5 +27,12 @@ class ListPirateAdapter(private val listPirate: ArrayList<Pirate>): RecyclerView
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
+
+        holder.itemView.setOnClickListener {
+            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+            intentDetail.putExtra("key_pirate", listPirate[holder.adapterPosition])
+            holder.itemView.context.startActivity(intentDetail)
+        }
+
     }
 }
