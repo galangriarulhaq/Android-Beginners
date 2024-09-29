@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/pirate_title"
+            tools:text="@string/pirate_title"
             android:gravity="center"
             android:textSize="18sp"
             android:textStyle="italic"/>
@@ -67,6 +67,14 @@
             android:textSize="16sp"
             android:lineSpacingMultiplier="1"
             tools:text="@string/description"/>
+
+        <Button
+            android:id="@+id/btn_action_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Share to Whatsapp"
+            app:icon="@drawable/share"/>
 
     </LinearLayout>
 
