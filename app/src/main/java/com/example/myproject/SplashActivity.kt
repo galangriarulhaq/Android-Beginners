@@ -12,7 +12,6 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        // Menghapus ActionBar
         supportActionBar?.hide()
 
         Handler(Looper.getMainLooper()).postDelayed({
