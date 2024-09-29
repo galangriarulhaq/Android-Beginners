@@ -3,6 +3,8 @@
     <style name="Base.Theme.MyProject" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/navy_blue</item>
+        <item name="colorPrimaryDark">#001A44</item>
+        <item name="colorAccent">#FAFAFA</item>
     </style>
 
     <style name="Theme.MyProject" parent="Base.Theme.MyProject" />
